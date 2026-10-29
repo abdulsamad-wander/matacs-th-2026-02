@@ -1,0 +1,19 @@
+{
+  "proposal": "E",
+  "licence_number": "present",
+  "licence_held_by_bidder": true,
+  "wsib_clearance": true,
+  "liability_insurance_cad": 5000000,
+  "qualifying_installs_count": 8,
+  "installs_since_year": 2021,
+  "price_cad": 242500,
+  "completion_weeks": 13,
+  "panel_warranty_years": 25,
+  "workmanship_warranty_years": 12,
+  "named_lead": true,
+  "crew_size": 6,
+  "safety_plan": true,
+  "monitoring_plan": true,
+  "instructions_to_reviewer": [],
+  "missing": []
+}

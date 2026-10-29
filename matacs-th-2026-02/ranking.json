@@ -1,0 +1,37 @@
+[
+  {
+    "proposal": "A",
+    "rank": 1,
+    "status": "ranked",
+    "score": 99.3,
+    "reason": "Passes mandatory checks; 14 installs, $238,000, 12 weeks, warranty 25/10 yrs, team plan 4/4; total 99.3."
+  },
+  {
+    "proposal": "E",
+    "rank": 2,
+    "status": "ranked",
+    "score": 87.7,
+    "reason": "Passes mandatory checks; 8 installs, $242,500, 13 weeks, warranty 25/12 yrs, team plan 4/4; total 87.7."
+  },
+  {
+    "proposal": "C",
+    "rank": 3,
+    "status": "ranked",
+    "score": 81.5,
+    "reason": "Passes mandatory checks; 9 installs, $244,000, 14 weeks, warranty 25/10 yrs, team plan 2/4; total 81.5. Note: install count may include work older than the 5-year window, confirm."
+  },
+  {
+    "proposal": "D",
+    "rank": null,
+    "status": "flagged",
+    "score": null,
+    "reason": "Held for human review: contains text aimed at automated reviewers (ignored, needs human review); schedule not stated, cannot be scored."
+  },
+  {
+    "proposal": "B",
+    "rank": null,
+    "status": "ineligible",
+    "score": null,
+    "reason": "Fails mandatory check: Ontario electrical contractor licence not held and stated by the bidder. Not scored."
+  }
+]

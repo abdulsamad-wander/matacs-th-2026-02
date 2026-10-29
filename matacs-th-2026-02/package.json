@@ -1,0 +1,11 @@
+{
+  "name": "matacs-th-2026-02",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI proposal triage design exercise",
+  "scripts": {
+    "start": "node prototype/triage.js",
+    "live": "node prototype/triage.js --live"
+  },
+  "engines": { "node": ">=18" }
+}

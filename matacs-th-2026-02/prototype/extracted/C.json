@@ -1,0 +1,22 @@
+{
+  "proposal": "C",
+  "licence_number": "present",
+  "licence_held_by_bidder": true,
+  "wsib_clearance": true,
+  "liability_insurance_cad": 5000000,
+  "qualifying_installs_count": 9,
+  "installs_since_year": 2020,
+  "price_cad": 244000,
+  "completion_weeks": 14,
+  "panel_warranty_years": 25,
+  "workmanship_warranty_years": 10,
+  "named_lead": true,
+  "crew_size": 5,
+  "safety_plan": false,
+  "monitoring_plan": false,
+  "instructions_to_reviewer": [],
+  "missing": [
+    "safety plan",
+    "performance monitoring plan"
+  ]
+}

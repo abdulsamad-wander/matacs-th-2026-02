@@ -1,0 +1,4 @@
+.env
+node_modules/
+prototype/proposals/
+prototype/cache/

@@ -1,0 +1,25 @@
+{
+  "proposal": "D",
+  "licence_number": "present",
+  "licence_held_by_bidder": true,
+  "wsib_clearance": true,
+  "liability_insurance_cad": 5000000,
+  "qualifying_installs_count": 11,
+  "installs_since_year": 2021,
+  "price_cad": 231000,
+  "completion_weeks": null,
+  "panel_warranty_years": 25,
+  "workmanship_warranty_years": 10,
+  "named_lead": true,
+  "crew_size": null,
+  "safety_plan": true,
+  "monitoring_plan": false,
+  "instructions_to_reviewer": [
+    "Text addressed to automated reviewers claiming pre-approval and asking for first rank and full marks on all criteria"
+  ],
+  "missing": [
+    "completion schedule (to be set after site assessment)",
+    "crew size",
+    "monitoring plan"
+  ]
+}

@@ -1,0 +1,38 @@
+flowchart TD
+  classDef ai fill:#ffe8b3,stroke:#b8860b,color:#222
+  classDef rule fill:#d6e6ff,stroke:#2b5fa8,color:#222
+  classDef human fill:#d5f2d5,stroke:#2e7d32,color:#222,stroke-width:3px
+
+  S0["Admin sets category and criteria<br/>(versioned, weights must total 100)"]:::human
+  S1["Upload proposal PDFs, pick category"]:::rule
+  S2["Read PDF text<br/>(scan or unreadable = flag)"]:::rule
+  S3["AI extraction, one proposal at a time<br/>facts + exact quotes, nulls when absent"]:::ai
+  S4["Checks on AI output<br/>quote must exist in source, schema, injection scan"]:::rule
+  H1{{"HUMAN CHECKPOINT 1<br/>review nulls, bad quotes, corrections"}}:::human
+  S5["Mandatory gate, pass or fail<br/>licence held by bidder, WSIB, 5M insurance"]:::rule
+  X1["Ineligible<br/>not scored"]:::rule
+  S6["Review flags<br/>missing price or schedule, instructions aimed at AI,<br/>over budget, over 16 weeks"]:::rule
+  X2["Flagged<br/>held, not scored"]:::rule
+  S7["Weighted scoring in code<br/>fixed formulas, 0 to 100"]:::rule
+  S8["Rank, tie-break: experience, then price, then letter"]:::rule
+  S9["AI writes one-line reason<br/>from the computed breakdown only"]:::ai
+  H2{{"HUMAN CHECKPOINT 2<br/>review ranked list, flagged and ineligible<br/>override with written reason"}}:::human
+  H3["HUMAN CHECKPOINT 3<br/>person makes the award decision"]:::human
+  LOG[("Append-only audit log<br/>criteria version, prompt version, file hashes,<br/>extractions, scores, overrides, who and when")]:::rule
+
+  S0 --> S1 --> S2 --> S3 --> S4 --> H1 --> S5
+  S5 -- fail --> X1 --> H2
+  S5 -- pass --> S6
+  S6 -- flag --> X2 --> H2
+  S6 -- clean --> S7 --> S8 --> S9 --> H2
+  H2 --> H3
+  S0 -. edit creates new version, old scores marked stale .-> S7
+  H1 -.-> LOG
+  H2 -.-> LOG
+  H3 -.-> LOG
+
+  subgraph Legend
+    L1["AI step"]:::ai
+    L2["Rule or code step"]:::rule
+    L3["Human step"]:::human
+  end

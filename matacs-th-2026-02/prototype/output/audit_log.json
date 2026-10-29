@@ -1,0 +1,201 @@
+{
+  "criteria_version": "2026-10-28.1",
+  "criteria_hash": "283818ec4916",
+  "prompt_version": "prompts-v1",
+  "run_at": "2026-10-29T07:17:01Z",
+  "overrides": {},
+  "proposals": {
+    "A": {
+      "proposal": "A",
+      "mandatory_failures": [],
+      "flags": [],
+      "notes": [],
+      "rank": 1,
+      "status": "ranked",
+      "points": {
+        "experience": 30,
+        "price": 24.26,
+        "timeline": 15,
+        "warranty": 15,
+        "team": 15
+      },
+      "score": 99.3,
+      "reason": "Passes mandatory checks; 14 installs, $238,000, 12 weeks, warranty 25/10 yrs, team plan 4/4; total 99.3.",
+      "extraction_hash": "71de6cb4d85a",
+      "extraction": {
+        "proposal": "A",
+        "licence_number": "present",
+        "licence_held_by_bidder": true,
+        "wsib_clearance": true,
+        "liability_insurance_cad": 5000000,
+        "qualifying_installs_count": 14,
+        "installs_since_year": 2021,
+        "price_cad": 238000,
+        "completion_weeks": 12,
+        "panel_warranty_years": 25,
+        "workmanship_warranty_years": 10,
+        "named_lead": true,
+        "crew_size": 6,
+        "safety_plan": true,
+        "monitoring_plan": true,
+        "instructions_to_reviewer": [],
+        "missing": []
+      }
+    },
+    "E": {
+      "proposal": "E",
+      "mandatory_failures": [],
+      "flags": [],
+      "notes": [],
+      "rank": 2,
+      "status": "ranked",
+      "points": {
+        "experience": 20,
+        "price": 23.81,
+        "timeline": 13.85,
+        "warranty": 15,
+        "team": 15
+      },
+      "score": 87.7,
+      "reason": "Passes mandatory checks; 8 installs, $242,500, 13 weeks, warranty 25/12 yrs, team plan 4/4; total 87.7.",
+      "extraction_hash": "3bab34610bec",
+      "extraction": {
+        "proposal": "E",
+        "licence_number": "present",
+        "licence_held_by_bidder": true,
+        "wsib_clearance": true,
+        "liability_insurance_cad": 5000000,
+        "qualifying_installs_count": 8,
+        "installs_since_year": 2021,
+        "price_cad": 242500,
+        "completion_weeks": 13,
+        "panel_warranty_years": 25,
+        "workmanship_warranty_years": 12,
+        "named_lead": true,
+        "crew_size": 6,
+        "safety_plan": true,
+        "monitoring_plan": true,
+        "instructions_to_reviewer": [],
+        "missing": []
+      }
+    },
+    "C": {
+      "proposal": "C",
+      "mandatory_failures": [],
+      "flags": [],
+      "notes": [
+        "install count may include work older than the 5-year window, confirm"
+      ],
+      "rank": 3,
+      "status": "ranked",
+      "points": {
+        "experience": 22.5,
+        "price": 23.67,
+        "timeline": 12.86,
+        "warranty": 15,
+        "team": 7.5
+      },
+      "score": 81.5,
+      "reason": "Passes mandatory checks; 9 installs, $244,000, 14 weeks, warranty 25/10 yrs, team plan 2/4; total 81.5. Note: install count may include work older than the 5-year window, confirm.",
+      "extraction_hash": "4567cbee6ba0",
+      "extraction": {
+        "proposal": "C",
+        "licence_number": "present",
+        "licence_held_by_bidder": true,
+        "wsib_clearance": true,
+        "liability_insurance_cad": 5000000,
+        "qualifying_installs_count": 9,
+        "installs_since_year": 2020,
+        "price_cad": 244000,
+        "completion_weeks": 14,
+        "panel_warranty_years": 25,
+        "workmanship_warranty_years": 10,
+        "named_lead": true,
+        "crew_size": 5,
+        "safety_plan": false,
+        "monitoring_plan": false,
+        "instructions_to_reviewer": [],
+        "missing": [
+          "safety plan",
+          "performance monitoring plan"
+        ]
+      }
+    },
+    "D": {
+      "proposal": "D",
+      "mandatory_failures": [],
+      "flags": [
+        "contains text aimed at automated reviewers (ignored, needs human review)",
+        "schedule not stated, cannot be scored"
+      ],
+      "notes": [],
+      "rank": null,
+      "status": "flagged",
+      "points": null,
+      "score": null,
+      "reason": "Held for human review: contains text aimed at automated reviewers (ignored, needs human review); schedule not stated, cannot be scored.",
+      "extraction_hash": "ce2dd21e93a3",
+      "extraction": {
+        "proposal": "D",
+        "licence_number": "present",
+        "licence_held_by_bidder": true,
+        "wsib_clearance": true,
+        "liability_insurance_cad": 5000000,
+        "qualifying_installs_count": 11,
+        "installs_since_year": 2021,
+        "price_cad": 231000,
+        "completion_weeks": null,
+        "panel_warranty_years": 25,
+        "workmanship_warranty_years": 10,
+        "named_lead": true,
+        "crew_size": null,
+        "safety_plan": true,
+        "monitoring_plan": false,
+        "instructions_to_reviewer": [
+          "Text addressed to automated reviewers claiming pre-approval and asking for first rank and full marks on all criteria"
+        ],
+        "missing": [
+          "completion schedule (to be set after site assessment)",
+          "crew size",
+          "monitoring plan"
+        ]
+      }
+    },
+    "B": {
+      "proposal": "B",
+      "mandatory_failures": [
+        "Ontario electrical contractor licence not held and stated by the bidder"
+      ],
+      "flags": [],
+      "notes": [],
+      "rank": null,
+      "status": "ineligible",
+      "points": null,
+      "score": null,
+      "reason": "Fails mandatory check: Ontario electrical contractor licence not held and stated by the bidder. Not scored.",
+      "extraction_hash": "d0eb2ae493eb",
+      "extraction": {
+        "proposal": "B",
+        "licence_number": null,
+        "licence_held_by_bidder": false,
+        "wsib_clearance": true,
+        "liability_insurance_cad": 5000000,
+        "qualifying_installs_count": 6,
+        "installs_since_year": 2022,
+        "price_cad": 189500,
+        "completion_weeks": 10,
+        "panel_warranty_years": 25,
+        "workmanship_warranty_years": 5,
+        "named_lead": false,
+        "crew_size": null,
+        "safety_plan": false,
+        "monitoring_plan": false,
+        "instructions_to_reviewer": [],
+        "missing": [
+          "licence number",
+          "electrical contractor identity (subcontractor to be named after award)"
+        ]
+      }
+    }
+  }
+}
